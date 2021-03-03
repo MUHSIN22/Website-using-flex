@@ -1,13 +1,57 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
     <title>Flex website</title>
-</head>
-<body>
+  </head>
+  <body>
     <header>
-        <div class="container"></div>
+      <div class="container">
+        <a href="#">Logo</a>
+        <nav>
+          <a href="#">Home</a>
+          <a href="#">About</a>
+          <a href="#">Contact</a>
+        </nav>
+      </div>
     </header>
-</body>
+
+    <main>
+      <section>
+        <div class="banner-container">
+          <div class="container">
+            <div class="right">
+              <div class="left-section">
+                <h1>Welcome to my website</h1>
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Doloremque asperiores minima neque eum <br />blanditiis
+                  laborum autem voluptatum esse? Distinctio, expedita.
+                </p>
+                <button>Login</button>
+              </div>
+            </div>
+            <div class="right-section">
+              <h4>Please fill the form</h4>
+              <form action="">
+                <div class="input-group">
+                  <input type="text" name="name" id="name" />
+                  <label for="name">Name</label>
+                </div>
+                <div class="input-group">
+                  <input type="email" name="email" id="email" />
+                  <label for="email">Email</label>
+                </div>
+                <div class="btn-section">
+                  <input type="Submit" class="submit-button" />
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+  </body>
 </html>

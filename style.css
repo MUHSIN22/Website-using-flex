@@ -1,0 +1,69 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+header{
+    width: 100%;
+    background-color: rgba(70, 67, 67, 0.5);
+    padding: 1rem;
+    position: absolute;
+    top: 0;
+}
+header .container{
+    display: flex;
+    justify-content: space-between;
+}
+header a{
+    text-decoration: none;
+    margin-right: 80px;
+    font-size: 14px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    letter-spacing: 1.5px;
+    color: rgba(255, 255, 255, 0.719);
+}
+.banner-container{
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(90deg,rgba(54, 59, 66, 0.5),rgba(17,5,78,255)),url(./images/main.jpg);
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+}
+.banner-container .left-section h1{
+    margin: 0;
+}
+.banner-container .container{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+}
+.left-section{
+    width: 600px;
+}
+.left-section h1{
+    margin: 0;
+    color: white;
+    font-size: 40px;
+    opacity: .95;
+}
+.left-section p{
+    margin: 0;
+    font-size: 14px;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    line-height: 28px;
+    letter-spacing: 1px;
+    color: rgba(214, 206, 206, 05);
+}
+.left-section button{
+    color: rgb(78, 78, 78);
+    background-color: white;
+    border: none;
+    padding: 12px 50px;
+    border-radius: 4px;
+}
