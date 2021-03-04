@@ -6,6 +6,9 @@ body{
     padding: 0;
     font-family: Arial, Helvetica, sans-serif;
 }
+
+/*Header section starts*/
+
 header{
     width: 100%;
     background-color: rgba(70, 67, 67, 0.5);
@@ -25,6 +28,11 @@ header a{
     letter-spacing: 1.5px;
     color: rgba(255, 255, 255, 0.719);
 }
+
+/*header section end*/
+
+/*Banner sectrion*/
+
 .banner-container{
     width: 100%;
     height: 100vh;
@@ -42,6 +50,12 @@ header a{
     justify-content: space-around;
     width: 100%;
 }
+
+/*Banner section end*/
+
+/*Left section*/
+
+
 .left-section{
     width: 600px;
 }
@@ -61,9 +75,82 @@ header a{
     color: rgba(214, 206, 206, 05);
 }
 .left-section button{
-    color: rgb(78, 78, 78);
+    color: rgba(17,5,78,255) ;
+    font-weight: bold;
+    font-size: 15px;
     background-color: white;
     border: none;
     padding: 12px 50px;
     border-radius: 4px;
+    cursor: pointer;
 }
+
+
+
+/*Left section end*/
+
+/* Right section */
+
+.right-section{
+    width: 400px;
+    background-color: white;
+    border-radius: 15px;
+    padding: 40px 0;
+    box-shadow: 0 5px 6px rgba(0,0,0,0.9);
+}
+.right-section h4{
+    font-size: 20px;
+    width: 300px;
+    margin: auto;
+    margin-bottom: 30px;
+    color: rgb(136,136,136);
+}
+.input-group{
+    width: 300px;
+    margin: 30px auto;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+.input-group label{
+    color: rgb(165,165,165);
+    font-size: 14px;
+    position: absolute;
+    top: 10px;
+    transition: 0.5s ease-in-out;
+}
+.input-group input{
+    border: none;
+    outline: none;
+    margin-top: 5px;
+    padding: 7px;
+    border-bottom: 1px solid #c9c9c98a;
+    color: rgba(17,5,78,255) ;
+    font-weight: bold;
+    text-transform: uppercase;
+
+}
+.input-group input:focus ~ label,
+.input-group input:valid ~ label{
+    color: rgba(17,5,78,255) ;
+    top: -10px;
+    font-size: 12px;
+}
+.btn-section{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.submit-button{
+    background-color: rgba(17,5,78,255);
+    color: white;
+    border: none;
+    padding : 10px 0;
+    margin-top: 15px;
+    width: 300px;
+    cursor: pointer;
+    border-radius: 12px;
+    font-weight: bold;
+}
+
+/* Right section end */
